@@ -9,6 +9,7 @@ This Weather Dashboard Application allows users to search for current and foreca
 - [Features](#features)
 - [Technologies](#technologies)
 - [License](#license)
+- [Deployment](#deployment)
 - [Grading Criteria](#grading-criteria)
 - [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
@@ -16,17 +17,22 @@ This Weather Dashboard Application allows users to search for current and foreca
 ---
 
 ## **Installation**
-1. Clone the repository:
-
-2. Navigate to the project directory:
-
-3. Install dependencies:
-
-4. Create a `.env` file in the root folder and add your OpenWeather API key:
-
-5. Start the server:
-
-6. Open `http://localhost:3001` in your browser.
+1. **Clone the repository:**
+    ```Bash
+    git clone https://github.com/YourGitHubUsername/Alex-s-API-weather-dashboard.git
+2. **Navigate to the project directory:****
+    ```Bash
+    cd Alex-s-API-weather-dashboard
+3. **Install dependencies:**
+    ```Bash
+    npm install
+4. **Run Build**
+    ```Bash
+    npm run build --prefix client
+5. **Start the server:**
+    ```Bash
+    npm run dev --prefix server
+6. **Open `http://localhost:3001` in your browser.**
 
 ---
 
@@ -35,7 +41,7 @@ This Weather Dashboard Application allows users to search for current and foreca
 - View the **current weather** and a **5-day forecast**.
 - Use the **search history** buttons to revisit previous searches.
 - Remove any city from the search history by clicking the **delete button**.
-
+- Clear the entire search history with the **Clear All History** button.
 ---
 
 ## **Features**
@@ -58,6 +64,13 @@ This Weather Dashboard Application allows users to search for current and foreca
 
 ## **License**
 This project is licensed under the **MIT License**.
+
+---
+
+## **Deployment**
+This application is deployed and can be access at the following link:
+
+[Weather Dashboard on Render](https://alex-s-api-weather-dashboard.onrender.com/)
 
 ---
 
@@ -87,7 +100,7 @@ This project is licensed under the **MIT License**.
 ## **Screenshots**
 
 ### Example of Current Weather and 5-Day Forecast:
-![Weather Dashboard](./assets/images/weather-dashboard-screenshot.png)
+![Weather Dashboard](./assets/ReadMeRender.png)
 
 ---
 
@@ -102,5 +115,5 @@ This project is licensed under the **MIT License**.
 
 ## **Contact**
 For questions, feel free to reach out via GitHub or email:
-- **GitHub:** [YourGitHubUsername](https://github.com/YourGitHubUsername)
-- **Email:** your.email@example.com
+- **GitHub:** [Amarrero0215](https://github.com/Amarrero0215)
+- **Email:** alexmarrero0215@gmail.com
